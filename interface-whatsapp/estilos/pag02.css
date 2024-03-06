@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --default_font: "Noto Sans Display", sans-serif;
+
+    --width_mensagem: 246px;
+    --height_mensgem: 24px;
+
+    --nav_width: 389px;
+    --nav_height: 85px;
+
+    --foto_status: 85px;
+    --status_border: 2px;
+
+    --fundo_input: #252525;
+    --cor_fundo: #121212;
+    --cor_mensagem: #C7C7C7;
+    --cor_icons: #0095FF;
+}
+
+main {
+    height: 1080px;
+    font-family: var(--default_font);
+    color: white;
+    background-image: url(../imagens/wallpaper_conversa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+}
+
+.contato {
+    background-color: #2c2c2c7c;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 392px;
+    height: 92px;
+    border-radius: 22px;
+}
+
+.nome-contato {
+    width: 180px;
+    padding-top: 20px;
+}
+
+.avatar {
+    border: 2px solid #d3d3d32d;
+    border-radius: 50%;
+}
+
+.nome-contato h1 {
+    font-size: 20px;
+}
+
+.nome-contato p {
+    font-size: 11px;
+    color: var(--cor_mensagem);
+}
+
+section .avatar {
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+}
+
+section .seta {
+    width: 11px;
+    height: 19px;
+    margin-top: 40px;
+}
+
+section .video {
+    width: 23px;
+    height: 12px;
+}
+
+section .phone {
+    width: 18px;
+    height: 18px;
+}
+
+.video {
+    margin-top: 40px;
+}
+
+.phone {
+    margin-top: 38px;
+}
+
+.data {
+    font-size: 12px;
+    width: 83px;
+    height: 18px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #2c2c2c7c;
+    text-align: center;
+    color: var(--cor_mensagem);
+    margin-top: 10px;
+}
+
+article {
+    padding: 15px 20px;
+}
+
+article .hora {
+    text-align: end;
+    font-size: 10px;
+    padding: 6px 12px 0px 0px;
+    color: var(--cor_mensagem);
+}
+
+.mensagem {
+    font-size: 18px;
+    width: 290px;
+    background-color: #2c2c2c7c;
+    padding: 20px;
+    border-radius: 16px 16px 16px 5px;
+    margin-bottom: 25px;
+}
+
+.minha-msg {
+    font-size: 18px;
+    width: 290px;
+    background-color: #2c2c2c7c;
+    padding: 20px;
+    border-radius: 16px 16px 5px 16px;
+    margin: 25px 0px 25px 55px;
+}
+
+.audio {
+    font-size: 18px;
+    width: 290px;
+    height: 40px;
+    background-color: #2c2c2c7c;
+    padding: 20px;
+    border-radius: 16px 16px 16px 5px;
+    display: flex;
+    gap: 15px;
+}
+
+.audio img {
+    width: 53px;
+    height: 53px;
+}
+
+#play {
+    width: 25px;
+    height: 25px;
+    padding-top: 4px;
+}
+
+.audio input {
+    width: 146px;
+    height: 6px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: default;
+}
+
+.hora-seg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra p {
+    font-size: 10px;
+    color: var(--cor_mensagem);
+}
+
+.mini-contato {
+    border: 2px solid #d3d3d32d;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.resposta {
+    font-size: 11px;
+    width: 239px;
+    height: 42px;
+    background-color: #d8d8d834;
+    border-radius: 12px;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 10px;
+}
+
+.icon-voice {
+    display: flex;
+    padding-top: 3px;
+}
+
+.icon-voice img {
+    width: 6px;
+    height: 10px;
+    margin-top: 3px;
+    padding-right: 8px;
+}
+
+.enviar {
+    width: 392px;
+    height: 78px;
+    background-color: #2c2c2c7c;
+    display: flex;
+    gap: 15px;
+    border-radius: 22px;
+}
+
+.galeria {
+    width: 23px;
+    height: 23px;
+    margin-top: 10px;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.camera {
+    width: 23px;
+    height: 17px;
+    margin-top: 30px;
+}
+
+.microfone {
+    width: 14px;
+    margin-top: 10px;
+    height: 21px;
+    margin-top: 25px;
+}
+
+.digitar {
+    width: 242px;
+    height: 38px;
+    background-color: #b8b6b67c;
+    text-align: end;
+    border-radius: 20.5px;
+    margin-top: 20px;
+}
+
+.digitar img {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}

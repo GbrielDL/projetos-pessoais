@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    width: 428px;
+    height: 525px;
+    background-color: #121212;
+}
+
+body {
+    background-color: #535353;
+}
+

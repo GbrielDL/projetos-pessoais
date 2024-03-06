@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --default_font: "Noto Sans Display", sans-serif;
+
+    --width_mensagem: 246px;
+    --height_mensgem: 24px;
+
+    --nav_width: 389px;
+    --nav_height: 85px;
+
+    --foto_status: 85px;
+    --status_border: 2px;
+
+    --fundo_input: #252525;
+    --cor_fundo: #121212;
+    --cor_mensagem: #C7C7C7;
+    --cor_icons: #0095FF;
+}
+
+* {
+    font-family: var(--default_font);
+}
+
+main {
+    color: white;
+    height: 740px;
+}
+
+header>.me {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+nav {
+    padding: 15px 20px;
+    display: flex;
+    gap: 13px;
+}
+
+nav img {
+    width: var(--foto_status);
+    height: var(--foto_status);
+    border: var(--status_border) solid var(--cor_icons);
+    border-radius: 50%;
+}
+
+header {
+    padding: 60px 0px 0px 0px;
+    width: 428px;
+    margin: auto;
+    background-color: var(--cor_fundo);
+    color: white;
+}
+
+.me>p.username {
+    padding: 5px 0px 0px 10px;
+}
+
+.att {
+    display: flex;
+    padding: 0px 25px;
+    gap: 5px;
+}
+
+.att p {
+    font-size: 18px;
+}
+
+.att>img {
+    padding-top: 6px;
+    width: 15px;
+    height: 15px;
+}
+
+input {
+    width: 346px;
+    height: 44px;
+    border-radius: 11px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--fundo_input);
+    border: none;
+    color: white;
+    outline: none;
+}
+
+main {
+    padding-top: 15px;
+}
+
+.conversa-arq {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+    font-size: 35px;
+}
+
+div.arquivados {
+    display: flex;
+    font-size: 20px;
+    gap: 5px;
+    margin-top: 22px;
+    color: var(--cor_mensagem);
+}
+
+div.arquivados>img {
+    width: 20px;
+    height: 25px;
+}
+
+div.mensagem {
+    display: flex;
+    padding: 0px 20px 17px 20px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.mensagem img {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #c7c7c744;
+    border-radius: 50%;
+}
+
+.nome {
+    padding-top: 6px;
+}
+
+.mensagem h2 {
+    font-size: 20px;
+}
+
+.mensagem p {
+    font-size: 16px;
+    color: var(--cor_mensagem);
+}
+
+.hora button {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: #0095FF;
+    margin-top: 5px;
+}
+
+.hora {
+    text-align: end;
+    padding-left: 37px;
+    padding-top: 7px;
+}
+
+main span {
+    font-weight: bold;
+}
+
+main strong {
+    color: #0095FF;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+footer {
+    width: 386px;
+    height: 91px;
+    background-image: url(../imagens/fundo_footer.png);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -160px;
+    border-radius: 22px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.mensagem:hover {
+    background-color: #d3d3d309;
+}
+
+.conversas a {
+    text-decoration: none;
+    color: white;
+}
