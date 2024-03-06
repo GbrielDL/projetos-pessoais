@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+body {
+    background-color: #535353;
+}
+
+main {
+    height: 926px;
+    width: 428px;
+    background-color: #121212;
+    display: block;
+    margin: auto;
+}
+
 img.whatsapp {
     width: 139px;
     height: 139px;
