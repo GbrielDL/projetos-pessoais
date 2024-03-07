@@ -32,7 +32,8 @@ main {
 }
 
 .contato {
-    background-color: #2c2c2c7c;
+    background-color: #2c2c2c6e;
+    backdrop-filter: blur(12px);
     display: flex;
     margin: auto;
     justify-content: space-evenly;
@@ -97,6 +98,7 @@ section .phone {
     margin: auto;
     border-radius: 5px;
     background-color: #2c2c2c7c;
+    backdrop-filter: blur(12px);
     text-align: center;
     color: var(--cor_mensagem);
     margin-top: 10px;
@@ -116,7 +118,8 @@ article .hora {
 .mensagem {
     font-size: 18px;
     width: 290px;
-    background-color: #2c2c2c7c;
+    background-color: #2c2c2c9d;
+    backdrop-filter: blur(12px);
     padding: 20px;
     border-radius: 16px 16px 16px 5px;
     margin-bottom: 25px;
@@ -125,7 +128,8 @@ article .hora {
 .minha-msg {
     font-size: 18px;
     width: 290px;
-    background-color: #2c2c2c7c;
+    background-color: #7e7c7c36;
+    backdrop-filter: blur(12px);
     padding: 20px;
     border-radius: 16px 16px 5px 16px;
     margin: 25px 0px 25px 55px;
@@ -135,7 +139,8 @@ article .hora {
     font-size: 18px;
     width: 290px;
     height: 40px;
-    background-color: #2c2c2c7c;
+    background-color: #2c2c2c9d;
+    backdrop-filter: blur(12px);
     padding: 20px;
     border-radius: 16px 16px 16px 5px;
     display: flex;
@@ -182,10 +187,11 @@ article .hora {
     font-size: 11px;
     width: 239px;
     height: 42px;
-    background-color: #d8d8d834;
     border-radius: 12px;
     padding: 10px 0px 0px 10px;
     margin-bottom: 10px;
+    background-color: #e0e0e056;
+    backdrop-filter: blur(12px);
 }
 
 .icon-voice {
@@ -203,10 +209,11 @@ article .hora {
 .enviar {
     width: 392px;
     height: 78px;
-    background-color: #2c2c2c7c;
     display: flex;
     gap: 15px;
     border-radius: 22px;
+    background-color: #2c2c2c7c;
+    backdrop-filter: blur(8px);
 }
 
 .galeria {
