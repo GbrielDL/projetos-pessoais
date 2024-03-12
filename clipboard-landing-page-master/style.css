@@ -84,12 +84,10 @@ button {
     box-shadow: 0.5px 1.5px 0px #3f4db4;
 }
 
-.ios_button:hover,
 .ios_button:active {
     background-color: #26baa4b0;
 }
 
-.mac_button:hover,
 .mac_button:active {
     background-color: #3f4db4a8;
 }
@@ -278,7 +276,7 @@ ul {
     }
 
     section.download {
-        width: 100%;
+        width: 275px;
         padding: 15px;
     }
 
@@ -318,13 +316,25 @@ ul {
         display: block;
     }
 
+    .buttons button {
+        outline: none;
+    }
+
+    .buttons {
+        padding-left: 30px;
+    }
+
     .ios_button {
         margin-left: 6px;
     }
 
+    .download {
+        width: 100%;
+    }
+
     .download>h2,
     p {
-        width: 90%;
+        text-align: center;
     }
 
     .download button {
