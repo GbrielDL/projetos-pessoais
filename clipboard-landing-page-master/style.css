@@ -253,4 +253,121 @@ ul {
     section.logo {
         display: block;
     }
+
+    .logo img {
+        display: block;
+        margin: auto;
+        padding: 50px 0px;
+    }
+
+    div.footer-02 {
+        display: block;
+        text-align: center;
+    }
+
+    div.footer-02 ul {
+        columns: 1;
+        padding: 20px 0px;
+        line-height: 50px;
+    }
+
+    .socias {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    section.download {
+        width: 100%;
+        padding: 15px;
+    }
+
+    nav,
+    .buttons {
+        display: block;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+    .ios_button {
+        margin-left: 6px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    p {
+        font-size: 15px;
+    }
+
+    header {
+        background: white url(images/bg-header-mobile.png) center center no-repeat;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    nav,
+    .buttons {
+        display: block;
+    }
+
+    .ios_button {
+        margin-left: 6px;
+    }
+
+    .download>h2,
+    p {
+        width: 90%;
+    }
+
+    .download button {
+        margin-left: -20px;
+    }
+
+    .download .ios_button {
+        margin-left: -15px;
+    }
+
+    button {
+        margin-bottom: 20px;
+        width: 85%;
+    }
+
+    article,
+    section {
+        padding: 15px;
+    }
+
+    article#problem {
+        margin: 50px 0px;
+    }
+
+    #problem p {
+        width: 100%;
+    }
+
+    article.clipboard p,
+    article.p_problem p {
+        width: 100%;
+    }
+
+    section.icons div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icons div>p {
+        width: 100%;
+    }
+
+    article.track p {
+        width: 100%;
+    }
 }
