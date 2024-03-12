@@ -10,3 +10,6 @@
  <p>
     <a href="https://gbrieldl.github.io/projetos-pessoais/results-summary-component-main/index.html" target="_blank" type="external">Results Summary</a>
  </p>
+ <p>
+    <a href="https://gbrieldl.github.io/projetos-pessoais/clipboard-landing-page-master/index.html" target="_blank" type="external">Clipboard Landing</a>
+ </p>
