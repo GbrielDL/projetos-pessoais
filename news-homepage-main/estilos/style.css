@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*Versão Mobile First*/
+
+@font-face {
+    font-family: 'inter_regular';
+    src: url(../assets/fonts/static/Inter-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'inter_bold';
+    src: url(../assets/fonts/static/Inter-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'inter_extrabold';
+    src: url(../assets/fonts/static/Inter-ExtraBold.ttf) format(truetype);
+}
+
+:root {
+    /*Cores*/
+    --title_and_bg: #00011A;
+    --read_button: #F25E4F;
+    --p_color: #CBC9C8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'inter_regular';
+    padding: 20px;
+}
+
+header > section#logo_burguer > img {
+    display: block;
+}
+
+header > section#logo_burguer {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #logo {
+    width: 50px;
+}
+
+header #menu_burguer {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+menu {
+    width: 200px;
+    background-color: rgb(231, 231, 231);
+    margin-left: 135px;
+    padding: 30px;
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+ul > li {
+    margin-bottom: 10px;
+}

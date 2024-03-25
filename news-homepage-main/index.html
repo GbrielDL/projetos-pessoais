@@ -1,60 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="estilos/style.css">
+
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <header>
+    <section id="logo_burguer">
+      <img id="logo" src="assets/images/logo.svg" alt="logo">
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+      <img id="menu_burguer" src="assets/images/icon-menu.svg" alt="ícone burguer" onclick="ativarMenu()">
+    </section>
+    <menu id="menuu">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">New</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="#">Trending</a>
+        </li>
+        <li>
+          <a href="#">Categories</a>
+        </li>
+      </ul>
+    </menu>
+  </header>
 
-  The Bright Future of Web 3.0?
+  <main>
+    <section id="home">
+      <article>
+        <img src="assets/images/image-web-3-mobile.jpg" alt="image">
+        <section id="title">
+          <h1>The Bright Future of Web 3.0?</h1>
+        </section>
+        <p>
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the people.
+          But is it really fulfilling its promise?
+        </p>
+        <button>Read more</button>
+      </article>
+    </section>
+    <section id="new">
+      <h1>New</h1>
+      <h2>Hydrogen VS Electric Cars</h2>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+      <hr>
 
-  Read more
+      <h2>The Downsides of AI Artistry</h2>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
 
-  New 
+      <hr>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+      <h2>Is VC Funding Drying Up?</h2>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </section>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+    <section id="images">
+      <article class="img">
+        <h2>01</h2>
+        <p>
+          Reviving Retro PCs
+          What happens when old PCs are given modern upgrades?
+        </p>
+      </article>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      <article class="img">
+        <h2>02</h2>
+        <p>
+          Top 10 Laptops of 2022
+          Our best picks for various needs and budgets.
+        </p>
+      </article>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
+      <article class="img">
+        <h2>03</h2>
+        <p>
+          The Growth of Gaming
+          How the pandemic has sparked fresh opportunities.
+        </p>
+      </article>
+    </section>
+  </main>
 
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Codificado por <a href="https://www.github.com/GbrielDL" target="_blank" rel="noopener noreferrer"
+      type="external">Gabriel de Lima Gonçalves</a>.
   </div>
 </body>
+
+<script>
+  function ativarMenu() {
+    if (menuu.style.display == 'block') {
+      menuu.style.display = 'none'
+    } else {
+      menuu.style.display = 'block'
+    }
+  }
+</script>
 </html>
