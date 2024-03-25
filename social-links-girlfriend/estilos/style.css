@@ -41,6 +41,24 @@ section#fotos {
     margin-top: 25px;
 }
 
+#fotos h1, h2, p {
+    text-align: center;
+    font-family: var(--font_default);
+}
+
+#fotos > h1 {
+    font-size: 1.2em;
+}
+
+#fotos > h2 {
+    font-size: 1em;
+    color: #d80000;
+}
+
+#fotos h1, p {
+    color: #f3a6be;
+}
+
 main section#fotos>img#minha_muie {
     width: 130px;
     border-radius: 50%;
@@ -54,7 +72,7 @@ main section#fotos>img.hello_kitty_gif {
 article#buttons button {
     display: block;
     font-family: var(--font_default);
-    color: rgb(216, 0, 0);
+    color: #d80000;
     font-weight: 500;
     width: 300px;
     font-size: 1em;
@@ -77,7 +95,7 @@ article#buttons button {
 
 article#buttons {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 article#buttons a {
@@ -86,5 +104,5 @@ article#buttons a {
 
 article#buttons img.kitty_room {
     margin: 30px;
-    width: 250px;
+    width: 200px;
 }
