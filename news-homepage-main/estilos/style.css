@@ -17,11 +17,16 @@
     src: url(../assets/fonts/static/Inter-ExtraBold.ttf) format(truetype);
 }
 
+@font-face {
+    font-family: 'inter_variable';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+}
+
 :root {
     /*Cores*/
     --title_and_bg: #00011A;
     --read_button: #F25E4F;
-    --p_color: #CBC9C8;
+    --p_color: #5c5c5c;
 }
 
 * {
@@ -32,20 +37,24 @@
 
 html {
     scroll-behavior: smooth;
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
 }
 
 body {
     font-family: 'inter_regular';
+}
+
+header,
+main {
     padding: 20px;
 }
 
-header > section#logo_burguer > img {
+header>section#logo_burguer>img {
     display: block;
 }
 
-header > section#logo_burguer {
+header>section#logo_burguer {
     display: flex;
     justify-content: space-between;
 }
@@ -73,15 +82,75 @@ menu ul {
     list-style-type: none;
 }
 
-menu ul > li > a {
+menu ul>li>a {
     color: black;
     text-decoration: none;
 }
 
-li > a:hover {
+li>a:hover {
     text-decoration: underline;
 }
 
-ul > li {
-    margin-bottom: 10px;
+ul>li {
+    margin-bottom: 20px;
+}
+
+main section#home>article>img {
+    width: 85vw;
+}
+
+section#title h1 {
+    font-size: 2.5em;
+    font-family: 'inter_extrabold';
+    line-height: 1em;
+    color: var(--title_and_bg);
+    margin: 15px 0px;
+}
+
+main section#home p {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: var(--p_color);
+}
+
+main section#home button {
+    color: white;
+    background-color: var(--read_button);
+    border: none;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    font-family: 'inter_variable';
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 0.7em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+main section#new {
+    background-color: var(--title_and_bg);
+    color: #dddddd;
+    padding: 15px 15px 25px 15px;
+    margin: 60px 0px;
+}
+
+main section#new hr {
+    border: 1px solid #dddddd9f;
+    margin: 30px 0px;
+}
+
+main section#new h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+main section#new h1 {
+    color: #f7bc74;
+    margin-bottom: 25px;
+}
+
+main section#new p {
+    line-height: 1.7em;
+    font-size: 15px;
 }
