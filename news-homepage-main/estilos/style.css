@@ -37,7 +37,7 @@
 
 html {
     scroll-behavior: smooth;
-    width: 96vw;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -87,16 +87,16 @@ menu ul>li>a {
     text-decoration: none;
 }
 
-li>a:hover {
-    text-decoration: underline;
-}
-
 ul>li {
     margin-bottom: 20px;
 }
 
+ul>li > a:hover {
+    color: var(--read_button);
+}
+
 main section#home>article>img {
-    width: 85vw;
+    width: 89vw;
 }
 
 section#title h1 {
@@ -108,8 +108,8 @@ section#title h1 {
 }
 
 main section#home p {
-    font-size: 14px;
-    line-height: 1.8em;
+    font-size: 15px;
+    line-height: 1.7em;
     color: var(--p_color);
 }
 
@@ -117,14 +117,18 @@ main section#home button {
     color: white;
     background-color: var(--read_button);
     border: none;
-    padding: 11px 25px;
+    padding: 15px 30px;
     text-transform: uppercase;
     font-family: 'inter_variable';
     font-weight: 600;
     letter-spacing: 5px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-top: 20px;
     cursor: pointer;
+}
+
+main section#home button:hover {
+    background-color: #00011A;
 }
 
 main section#new {
@@ -139,18 +143,59 @@ main section#new hr {
     margin: 30px 0px;
 }
 
-main section#new h2 {
-    font-size: 20px;
-    color: white;
-    margin-bottom: 12px;
-}
-
 main section#new h1 {
     color: #f7bc74;
     margin-bottom: 25px;
 }
 
+main section#new h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+main section#new h2:hover {
+    color: #f7bc74;
+}
+
 main section#new p {
     line-height: 1.7em;
-    font-size: 15px;
+    font-size: 15.2px;
+}
+
+main section#images img {
+    width: 100px;
+}
+
+main section#images h1 {
+    font-size: 2em;
+    color: #c9c9c9;
+    font-family: 'inter_extrabold';
+}
+
+main section#images h2 {
+    font-size: 1.1em;
+    font-family: 'inter_extrabold';
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+main section#images h2:hover {
+    color: var(--read_button);
+}
+
+main section#images p {
+    color: #5c5c5c;
+    line-height: 1.6em;
+    font-size: 14.5px;
+}
+
+main div.img_section {
+    display: flex;
+    margin: 50px 0px;
+}
+
+main section#images article {
+    padding-left: 20px;
 }
