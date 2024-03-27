@@ -16,3 +16,6 @@
  <p>
    <a href="https://gbrieldl.github.io/projetos-pessoais/social-links-girlfriend/index.html" target="_blank" type="external">Social Links Girlfriend</a>
  </p>
+ <p>
+   <a href="https://gbrieldl.github.io/projetos-pessoais/news-homepage-main/index.html" target="_blank" type="external">News Homepage Main</a>
+ </p>
