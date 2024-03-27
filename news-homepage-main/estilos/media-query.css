@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) {
+    header section#logo_burguer img#menu_burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header menu {
+        display: block;
+        margin-left: 0px;
+        background-color: transparent;
+        width: 100vw;
+        text-align: end;
+        padding: 10px 0px 0px 0px;
+    }
+
+    header section#logo_burguer>img#logo {
+        height: 35px;
+    }
+
+    #menuu ul>li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    main section#home>article img {
+        width: 95vw;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 992px) {
+    main section#home article img {
+        width: 63vw;
+    }
+
+    main section#home article section#title>h1 {
+        width: 274px;
+        font-size: 3.3em;
+    }
+
+    section#title {
+        width: 260px;
+    }
+
+    main section#home article>div.para {
+        display: flex;
+    }
+
+    div.button_read {
+        padding: 20px 0px 0px 50px;
+    }
+
+    main section#home article p {
+        width: 320px;
+        font-size: 14px;
+    }
+
+    main div#new_home {
+        display: flex;
+    }
+
+    div#new_home #new {
+        margin-top: 0px;
+    }
+
+    main section#images {
+        display: flex;
+    }
+
+    section#images div.img_section p {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    section#images div.img_section h1 {
+        font-size: 1.5em;
+    }
+
+    section#images div.img_section h2 {
+        font-size: 1em;
+    }
+}
+
+/*Grantes Telas*/
+@media screen and (min-width: 1200px) {
+    header {
+        padding: 50px 50px 0px 50px;
+        width: 87vw;
+        margin: auto;
+    }
+
+    html {
+        width: 98vw;
+    }
+
+    main {
+        padding: 100px 0px 0px 130px;
+    }
+
+    main section#home article img {
+        width: 50vw;
+    }
+
+    div#new_home #new {
+        margin-top: 0px;
+        width: 25vw;
+        margin-left: 50px;
+    }
+
+    main section#images {
+        gap: 40px;
+    }
+
+}
