@@ -95,7 +95,7 @@ ul>li > a:hover {
     color: var(--read_button);
 }
 
-main div#new_home > section#home>article img {
+main section#home>article img {
     width: 89vw;
 }
 
