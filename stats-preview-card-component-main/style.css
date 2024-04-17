@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /*Cores*/
+    --bg_color: #0a0c1b;
+    --strong_color: #9f66c7;
+    --main_color: #1c1938; 
+    --imagem_color: #aa5cdb;
+}
+
+body {
+    background-color: var(--bg_color);
+    color: white;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    background-color: var(--main_color);
+    height: 125vh;
+    width: 90vw;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+main section#image {
+    background: var(--imagem_color) url(images/image-header-mobile.jpg) center center no-repeat;
+    background-size: cover;
+    height: 30%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+main section#principal {
+    height: 50%;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+main p {
+    font-size: 15px;
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+article#princ {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+strong {
+    color: var(--strong_color);
+}
+
+main #princ > p, #conquest {
+    margin: 25px 0px;
+}
+
+main #princ >p, #conquest p {
+    line-height: 25px;
+    color: #ffffffbf;
+    letter-spacing: 1px;
+}
+
+main #conquest h2 {
+    margin: 30px 0px 5px 0px;
+    font-size: 2em;
+}
